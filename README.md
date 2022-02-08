@@ -10,10 +10,13 @@ data_loader_channels.py:
 Transform samples into the format of “datalist” for inputting into convolutional neural network (CNN).
 
 LeNet.py: LeNet structure of CNN.
+
 LeNet_main.py: Train the LeNet model and verify the performance of the LeNet model. 
 
 AlexNet.py: AlexNet structure of CNN.
+
 AlexNet_main.py: Train the AlexNet model and verify the performance of the AlexNet model. 
 
 VggNet.py: VggNet structure of CNN.
+
 VggNet_main.py: Train the VggNet model and verify the performance of the VggNet model.
