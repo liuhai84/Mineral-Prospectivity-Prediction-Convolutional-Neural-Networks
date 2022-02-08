@@ -4,10 +4,10 @@ Considering that our data of mineral prospectivity prediction is private, we ran
 Before run, please copy the file folder of "sample" and renamed it as "train".
 
 Data augmentation.py:
-Divide the dataset into the training and validation sets that 80% of the samples for training and 20% of the samples for validation, and utilize the data augmentation method to generate more samples. The file folder of "train_expand" contains the samples for training, and the file folder of "verify_expand" contains the samples for validation. 
+Divide the dataset into the training and validation sets that 80% of the samples for training and 20% of the samples for validation, and utilize the data augmentation method to generate more samples. The file folder of "train_expand" contains the samples for training, and the file folder of "verify_expand" contains the samples for validation. Then, transform samples into the format of “datalist”.
 
 data_loader_channels.py:
-Transform samples into the format of “datalist” for inputting into convolutional neural network (CNN).
+Read the file of “datalist” to get multi-channel samples and their labels for inputting into convolutional neural network (CNN).
 
 LeNet.py: LeNet structure of CNN.
 
